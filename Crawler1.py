@@ -1,4 +1,8 @@
-﻿import re
+﻿#作者：张长宇 
+#功能：实现爬取顶点小说网小说《大道朝天》前165章，并保存在文件“大道朝天.txt”中 
+#日期：2018.04.05   
+
+import re
 import requests
 from bs4 import BeautifulSoup
 
